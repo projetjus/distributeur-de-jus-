@@ -1,3 +1,6 @@
+Tous les codes precedant nous ont permis d'obtenir ce resultat mais qui ne fonctionnent pas.
+
+
 const byte TRIGGER_PIN = 5; // Broche TRIGGER
 const byte ECHO_PIN = 4;    // Broche ECHO
  
