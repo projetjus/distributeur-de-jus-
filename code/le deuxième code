@@ -1,0 +1,29 @@
+ce code nous a permis d'utilisé le capteur a ultrason pour nous permettre de mesurer la distance entre notre main et le capteur .
+
+#define trigPin 3
+#define echoPin 2
+Servo servo;
+int sound = 250;
+void setup() {
+Serial.begin (9600);
+pinMode(trigPin, OUTPUT);
+pinMode(echoPin, INPUT);
+servo.attach(4);
+}
+void loop() {
+long duration, distance;
+digitalWrite(trigPin, LOW);
+delayMicroseconds(2);
+digitalWrite(trigPin, HIGH);
+delayMicroseconds(10);
+digitalWrite(trigPin, LOW);
+duration = pulseIn(echoPin, HIGH);
+distance = (duration/2) / 29.1;
+if (distance < 7) {   // distance inférieure à 7cm = activation 
+servo.write(0);// position du servo moteur si il y a activation
+}
+else {
+servo.write(170);// position initiale di servo moteur
+}
+delay(500);
+}
