@@ -1,4 +1,5 @@
-ce code nous a permis d'utilisé le capteur a ultrason pour nous permettre de mesurer la distance entre notre main et le capteur .
+ce code nous a permis d'utilisé le capteur a ultrason pour nous permettre de mesurer la distance entre notre main et le capteur . 
+De plus nous avons essayer d'ajoute une condition(l23) 
 
 #define trigPin 3
 #define echoPin 2
