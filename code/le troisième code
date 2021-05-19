@@ -1,4 +1,6 @@
-ce code a la meme fonctionaliter que le precedeant mais est plus complexe 
+ce code a la meme fonctionaliter que le precedeant mais est plus complexe.
+Nous l'avons ecrit car le precedant ne marchait pas.
+
 
 
 const byte TRIGGER_PIN = 5; // Broche TRIGGER
