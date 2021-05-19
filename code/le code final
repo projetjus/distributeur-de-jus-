@@ -1,4 +1,4 @@
-voici le code final qui nous permet de faire fonctionner le distributeur 
+voici le code final qui nous permet de faire fonctionner le distributeur qui correspond  à un melange de tous les codes précécedant 
 
 onst byte TRIGGER_PIN = 5; // Broche TRIGGER
 const byte ECHO_PIN = 4;    // Broche ECHO
