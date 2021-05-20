@@ -2,7 +2,7 @@ Ce projet est réalisé dans le cadre du module Communication Sans Fil en Licenc
 
 L1 Distributeur_de_jus
 
-nosu voulons créer un distributeur de jus sans contact 
+nous voulons créer un distributeur de jus sans contact 
 
 Description du projet
 
@@ -18,3 +18,5 @@ Materiel utilsé
 - Boisson
 - transistor
 - cable
+- découpeuse laser
+- materiel de soudure 
